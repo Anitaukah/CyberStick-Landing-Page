@@ -1,9 +1,11 @@
 @import "tailwindcss";
 
-.hero-bg{
-    background-image: url('./assets/hero_bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+
+
+.hero-bg {
+	background-image: url("./assets/hero_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
 }
