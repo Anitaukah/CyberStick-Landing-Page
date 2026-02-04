@@ -8,6 +8,9 @@ import Navbar from "./component/Navbar";
 import RemoteAd from "./component/RemoteAd";
 import Steps from "./component/Steps";
 
+// function App() {
+// 	return <div style={{ padding: 40, fontSize: 24 }}>App is rendering ✅</div>;
+// }
 function App() {
 	return (
 		<div className="">
