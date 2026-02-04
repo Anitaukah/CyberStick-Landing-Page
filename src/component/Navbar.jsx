@@ -37,7 +37,7 @@
 
 import React, { useState } from "react";
 import Logo from "../assets/cyberstick_logo.png";
-import Cart from "../assets/cart.png";
+import Cart from "../assets/Cart.png";
 
 const Navbar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
