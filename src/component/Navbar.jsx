@@ -64,7 +64,7 @@ const Navbar = () => {
 					<div className="flex items-center space-x-6">
 						{/* Desktop-only CTA + Cart */}
 						<div className="hidden md:flex items-center space-x-6">
-							<button className="bg-gradient-to-r from-pink-500 via-purple-800 to-purple-900 px-6 py-2 text-xs font-medium text-white transition hover:opacity-90">
+							<button className="rounded-sm md:w-45 bg-linear-to-r from-pink-500 via-purple-800 to-purple-900 px-6 py-2 text-xs font-medium text-white transition hover:opacity-90">
 								Buy Now
 							</button>
 

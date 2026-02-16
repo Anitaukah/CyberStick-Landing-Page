@@ -15,32 +15,50 @@ const RemoteAd = () => {
 	return (
 		<div className="bg-black">
 			<div className=" text-gray-200 m-auto w-[90%]">
-				<div className="text-center">
-					<h3 className="text-7xl pt-7">
-						<span className=" bg-linear-to-r from-pink-500 via-purple-800 to-purple-900 bg-clip-text text-transparent mr-2">
+				<div className="text-center md:pt-7 pt-6">
+					<h3 className="md:text-7xl text-3xl leading-tight ">
+						<span className="bg-linear-to-r from-pink-500 via-purple-800 to-purple-900 bg-clip-text text-transparent mr-2">
 							CyberStick
 						</span>
 						Remote
 					</h3>
-					<p className="text-4xl -indent-[300px] mt-5">With Air Mouse</p>
+					<p className="md:text-4xl text-base md:-indent-[300px] -indent-[128px]  md:mt-5">
+						With Air Mouse
+					</p>
 				</div>
 
-				<div className="flex justify-center gap-x-52">
+				<div className="mt-8 flex flex-col-reverse md:flex-row items-center md:justify-center md:gap-x-52">
 					<div className="flex flex-col self-center gap-3 w-72">
-						<div className="flex">
-							<img src={Ellipse} alt="" />
+						<div className="flex items-start">
+							<img
+								src={Ellipse}
+								alt=""
+								className="mt-1 h-3 w-3 md:h-auto md:w-auto"
+							/>
 							<p className="ml-5">Voice Control with Google voice assistant</p>
 						</div>
-						<div className="flex">
-							<img src={Ellipse} alt="" />
+						<div className="flex items-start">
+							<img
+								src={Ellipse}
+								alt=""
+								className="mt-1 h-3 w-3 md:h-auto md:w-auto"
+							/>
 							<p className="ml-5">Air mouse Enabled</p>
 						</div>
-						<div className="flex">
-							<img src={Ellipse} alt="" />
+						<div className="flex items-start">
+							<img
+								src={Ellipse}
+								alt=""
+								className="mt-1 h-3 w-3 md:h-auto md:w-auto"
+							/>
 							<p className="ml-5">2.4G Wireless Connection</p>
 						</div>
-						<div className="flex">
-							<img src={Ellipse} alt="" />
+						<div className="flex items-start">
+							<img
+								src={Ellipse}
+								alt=""
+								className="mt-1 h-3 w-3 md:h-auto md:w-auto"
+							/>
 							<p className="ml-5">Built in Gyroscope</p>
 						</div>
 					</div>
