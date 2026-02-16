@@ -13,53 +13,55 @@ const Steps = () => {
 		<div className="bg-black">
 			<div className="m-auto w-[90%]">
 				<div>
-					<h1 className="text-white text-5xl text-center pt-24">
+					<h1 className="text-white md:text-5xl text-center pt-14 text-2xl md:pt-24">
 						Experience{" "}
 						<span className="bg-linear-to-r from-pink-400 via-purple-800 to-purple-800  bg-clip-text text-transparent ">
 							Cyberstick
 						</span>
-						<span className="align-super text-2xl text-purple-700">TM</span>
+						<span className="align-super text-sm md:text-2xl text-purple-700">
+							TM
+						</span>
 					</h1>
-					<p className="text-white text-5xl text-center pt-3 pb-24">
+					<p className="pt-2 pb-12 leading-tight text-2xl text-white md:text-5xl text-center md:pt-3 md:pb-24">
 						In 3 Steps
 					</p>
 				</div>
 
 				<div className="grid justify-center gap-4">
-					<img src={ArrowDown} className=" -ml-12" alt="" />
-					<div className="flex justify-evenly">
-						<div className="p-3 justify-items-center bg-linear-to-t from-stone-950 via-stone-950 to-stone-900 drop-shadow-md">
+					<img src={ArrowDown} className="md:-ml-12 md:mx-auto w-28" alt="" />
+					<div className="md:flex md:justify-evenly md:gap-6 grid grid-cols-1 gap-4">
+						<div className="p-4 rounded md:p-3 justify-items-center bg-linear-to-t from-stone-950 via-stone-950 to-stone-900 drop-shadow-md">
 							<img src={One} alt="" className="pb-3" />
 							<div className="m-2">
-								<img src={TVStick} alt="" className="m-2" />
+								<img src={TVStick} alt="" className="m-2 w-24 md:w-auto" />
 							</div>
 
-							<p className="text-gray-300 text-center w-37.5 text-sm">
+							<p className="text-zinc-300 text-center w-37.5 text-sm">
 								Connect Cyberstick{" "}
 								<span className="align-super text-xs">TM</span> to your TV
 							</p>
 						</div>
-						<div className="p-3  justify-items-center bg-linear-to-t from-stone-950 via-stone-950 to-stone-900 drop-shadow-md">
+						<div className="rounded md:p-3 p-4 justify-items-center bg-linear-to-t from-stone-950 via-stone-950 to-stone-900 drop-shadow-md">
 							<img src={Two} alt="" className="pb-3" />
 							<div className="m-2">
-								<img src={TVWifi} alt="" />
+								<img src={TVWifi} alt="" className="w-24 md:w-auto" />
 							</div>
 
 							<p className="text-gray-300 text-center w-37.5 text-sm">
-								Connect to WI-FI{" "}
+								Connect to WI-FI
 							</p>
 						</div>
-						<div className="p-3  justify-items-center bg-linear-to-t from-stone-950 via-stone-950 to-stone-900 drop-shadow-md">
+						<div className="md:p-3 p-4 rounded justify-items-center bg-linear-to-t from-stone-950 via-stone-950 to-stone-900 drop-shadow-md">
 							<img src={Three} alt="" className="pb-3" />
 							<div className="m-2">
-								<img src={TVPlay} alt="" />
+								<img src={TVPlay} alt="" className="w-24 md:w-auto" />
 							</div>
 							<p className="text-gray-300 text-center w-37.5 text-sm">
 								Start Watching
 							</p>
 						</div>
 					</div>
-					<img src={ArrowUp} className="" alt="" />
+					<img src={ArrowUp} className="mx-auto w-28 md:w-auto" alt="" />
 				</div>
 			</div>
 		</div>
