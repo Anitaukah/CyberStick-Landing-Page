@@ -15,10 +15,12 @@ const FAQ = () => {
 
 	return (
 		<div className="bg-black  ">
-			<div className="m-auto w-[90%] ">
-				<h1 className="text-white text-3xl pt-10 ">FAQ</h1>
+			<div className="mx-auto w-[92%] max-w-[640px] md:w-[90%] md:max-w-none py-8 ">
+				<h1 className="pb-3 text-center text-2xl font-medium text-white md:text-left md:text-3xl pt-10 ">
+					FAQ
+				</h1>
 
-				<div className="w-[50%]">
+				<div className="lg:w-[50%] md:w-[50%] w-full">
 					<Accordion
 						expanded={expanded === "panel1"}
 						onChange={handleChange("panel1")}
@@ -31,6 +33,9 @@ const FAQ = () => {
 							"&:before": {
 								display: "none", // removes the default divider line
 							},
+							boxShadow: "none",
+							borderRadius: 0,
+
 							marginBottom: "16px",
 							margintTop: "16px",
 						}}
@@ -95,27 +100,41 @@ const FAQ = () => {
 								display: "none", // removes the default divider line
 							},
 							marginBottom: "16px",
-							margintTop: "16px",
+							// margintTop: "16px",
 						}}
 					>
 						<AccordionSummary
 							expandIcon={<ExpandMoreIcon sx={{ color: "#fff" }} />}
-							cla
 						>
-							<Typography className="text-white">
+							<Typography
+								sx={{
+									fontSize: { xs: "0.82rem", sm: "0.9rem" },
+									lineHeight: 1.45,
+								}}
+							>
 								Can I download other applications that do not come with the
 								Cyberstick?
 							</Typography>
 						</AccordionSummary>
 						<AccordionDetails>
-							<Typography>
+							<Typography
+								sx={{
+									fontSize: { xs: "0.72rem", sm: "0.82rem" },
+									lineHeight: 1.6,
+									color: "rgba(255,255,255,0.72)",
+								}}
+							>
 								Other applications can be downloaded to the Cyberstick, either
 								from the Google playstore or from the browser.
 							</Typography>
 						</AccordionDetails>
 					</Accordion>
 
-					<Divider className="bg-white/20 mb-3" />
+					<Divider
+						sx={{
+							borderColor: "rgba(255,255,255,0.14)",
+						}}
+					/>
 
 					<Accordion
 						expanded={expanded === "panel4"}

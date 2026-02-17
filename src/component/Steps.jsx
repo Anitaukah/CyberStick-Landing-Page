@@ -13,12 +13,12 @@ const Steps = () => {
 		<div className="bg-black">
 			<div className="m-auto w-[90%]">
 				<div>
-					<h1 className="text-white md:text-5xl text-center pt-14 text-2xl md:pt-24">
+					<h1 className="text-white md:text-5xl text-center pt-14 text-3xl md:pt-24">
 						Experience{" "}
 						<span className="bg-linear-to-r from-pink-400 via-purple-800 to-purple-800  bg-clip-text text-transparent ">
 							Cyberstick
 						</span>
-						<span className="align-super text-sm md:text-2xl text-purple-700">
+						<span className="align-super text-sm md:text-3xl text-purple-700">
 							TM
 						</span>
 					</h1>
@@ -28,7 +28,7 @@ const Steps = () => {
 				</div>
 
 				<div className="grid justify-center gap-4">
-					<img src={ArrowDown} className="md:-ml-12 md:mx-auto w-28" alt="" />
+					<img src={ArrowDown} className="md:-ml-12 md:mx-auto hidden md:block" alt="" />
 					<div className="md:flex md:justify-evenly md:gap-6 grid grid-cols-1 gap-4">
 						<div className="p-4 rounded md:p-3 justify-items-center bg-linear-to-t from-stone-950 via-stone-950 to-stone-900 drop-shadow-md">
 							<img src={One} alt="" className="pb-3" />
@@ -61,7 +61,7 @@ const Steps = () => {
 							</p>
 						</div>
 					</div>
-					<img src={ArrowUp} className="mx-auto w-28 md:w-auto" alt="" />
+					<img src={ArrowUp} className="mx-auto md:w-auto hidden md:block" alt="" />
 				</div>
 			</div>
 		</div>
