@@ -16,7 +16,7 @@ function App() {
 		<div className="">
 			<Navbar />
 			<Hero />
-			<Hero1 />
+			{/* <Hero1 /> */}
 			<AdSection1 />
 			<RemoteAd />
 			<Steps />

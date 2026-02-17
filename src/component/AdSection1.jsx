@@ -5,7 +5,7 @@ import Screen2 from "../assets/screen2.svg";
 const AdSection1 = () => {
 	return (
 		<div className="flex flex-col items-center px-3">
-			<div className="md:mb-36 md:-mt-52 -mt-23 mb-10 px-3">
+			<div className="md:mb-36 md:-mt-52 -mt-24 mb-10 px-3">
 				<img src={Screen1} alt="" />
 			</div>
 			<div className="my-5 flex flex-col items-center ">
